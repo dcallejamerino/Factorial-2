@@ -15,4 +15,4 @@ def factorial2(h):
         return 1
     else:
         return h * factorial2(h - 1)
-print(factorial2(10)) 
+print(factorial2(9)) 
