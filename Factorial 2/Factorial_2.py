@@ -6,7 +6,7 @@ def factorial(n):
     for i in range (1,n + 1):
         result = i * result
     return result
-print(factorial(5))
+print(factorial(6))
 
 # 2023 coding of a Factorial!
 # h!=h (h-1)!
@@ -15,4 +15,4 @@ def factorial2(h):
         return 1
     else:
         return h * factorial2(h - 1)
-print(factorial2(4)) 
+print(factorial2(10)) 
